@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestSenarios.TestNGClass1">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="d"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
+          <include name="e"/>
+          <include name="beforeMethod"/>
+          <include name="a"/>
+        </methods>
+      </class> <!-- TestSenarios.TestNGClass1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

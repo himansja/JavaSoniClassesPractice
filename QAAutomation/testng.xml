@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<!-- <groups> <run> <include name = "sanitytesting" /> </run> </groups> -->
+		<classes>
+			<class name="TestSenarios.TestNGClass1" >
+			<parameter name ="Bowser" value="chrome"></parameter>
+				<!-- <methods>
+					<include name="e">
+					<parameter name ="Bowser" value="chrome"></parameter>
+					</include>
+				</methods> -->
+			</class>
+			<class name="TestSenarios.TestNGClass2">
+				<methods>
+					<exclude name ="v"> </exclude>
+				</methods>
+			</class>
+			<class name= "TestSenarios.TestNGClass3"> </class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

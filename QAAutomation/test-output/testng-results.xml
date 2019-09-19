@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66" started-at="2019-04-12T08:54:47Z" finished-at="2019-04-12T08:54:47Z">
+    <groups>
+      <group name="sanitytesting">
+        <method signature="TestNGClass2.x()[pri:0, instance:TestSenarios.TestNGClass2@68c4039c]" name="x" class="TestSenarios.TestNGClass2"/>
+        <method signature="TestNGClass2.z()[pri:0, instance:TestSenarios.TestNGClass2@68c4039c]" name="z" class="TestSenarios.TestNGClass2"/>
+      </group> <!-- sanitytesting -->
+    </groups>
+    <test name="Default test" duration-ms="66" started-at="2019-04-12T08:54:47Z" finished-at="2019-04-12T08:54:47Z">
+      <class name="TestSenarios.TestNGClass2">
+        <test-method status="PASS" signature="l()[pri:0, instance:TestSenarios.TestNGClass2@68c4039c]" name="l" duration-ms="13" started-at="2019-04-12T14:24:47Z" finished-at="2019-04-12T14:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- l -->
+        <test-method status="PASS" signature="v()[pri:0, instance:TestSenarios.TestNGClass2@68c4039c]" name="v" duration-ms="1" started-at="2019-04-12T14:24:47Z" finished-at="2019-04-12T14:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- v -->
+        <test-method status="PASS" signature="x()[pri:0, instance:TestSenarios.TestNGClass2@68c4039c]" name="x" duration-ms="3" started-at="2019-04-12T14:24:47Z" finished-at="2019-04-12T14:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- x -->
+        <test-method status="PASS" signature="y()[pri:0, instance:TestSenarios.TestNGClass2@68c4039c]" name="y" duration-ms="3" started-at="2019-04-12T14:24:47Z" finished-at="2019-04-12T14:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- y -->
+        <test-method status="PASS" signature="z()[pri:0, instance:TestSenarios.TestNGClass2@68c4039c]" name="z" duration-ms="3" started-at="2019-04-12T14:24:47Z" finished-at="2019-04-12T14:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+      </class> <!-- TestSenarios.TestNGClass2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
